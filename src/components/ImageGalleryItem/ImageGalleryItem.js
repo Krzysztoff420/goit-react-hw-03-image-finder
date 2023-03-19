@@ -73,8 +73,6 @@ export class ImageGalleryItem extends Component {
   }
 }
 
-
-
 ImageGalleryItem.propTypes = {
   images: PropTypes.array.isRequired,
 };
