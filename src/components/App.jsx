@@ -59,7 +59,6 @@ export class App extends Component {
   render() {
     const { images, totalHits, isLoading, page } = this.state;
     const totalPages = Math.ceil(totalHits / 12);
-    console.log(page);
 
     return (
       <div
